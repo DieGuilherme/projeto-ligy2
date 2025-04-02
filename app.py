@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 def autenticar():
-    usuarios = {"ligyadmin": "123456"}  # simples para demo
+    usuarios = {"ligyadmin": "2707"}  # simples para demo
     with st.sidebar:
         st.title("🔐 Login")
         usuario = st.text_input("Usuário")
